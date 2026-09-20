@@ -1,10 +1,10 @@
 {
-  "id": "./",
+  "id": "/HerbScan/",
   "name": "HerbScan - Ayurvedic Plant Identifier & Research",
   "short_name": "HerbScan",
   "description": "Scan a plant, learn its value. Ayurvedic medicinal plant identification, offline database, research idea generator, and interactive herbal quizzes.",
-  "start_url": "./",
-  "scope": "./",
+  "start_url": "/HerbScan/",
+  "scope": "/HerbScan/",
   "display": "standalone",
   "orientation": "portrait-primary",
   "background_color": "#0e1713",
@@ -68,7 +68,7 @@
       "name": "Scan Plant",
       "short_name": "Scan",
       "description": "Scan and identify Ayurvedic herbs with camera",
-      "url": "./#scanner",
+      "url": "/HerbScan/#scanner",
       "icons": [
         {
           "src": "./pwa-192x192.png",
@@ -81,7 +81,7 @@
       "name": "Herb Directory",
       "short_name": "Herbs",
       "description": "Browse the Ayurvedic medicinal database offline",
-      "url": "./#directory",
+      "url": "/HerbScan/#directory",
       "icons": [
         {
           "src": "./pwa-192x192.png",

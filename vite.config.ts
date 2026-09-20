@@ -27,7 +27,8 @@ function pwaAssetPlugin(): Plugin {
         'manifest.json',
         'screenshot-mobile.png',
         'screenshot-desktop.png',
-        'sw.js'
+        'sw.js',
+        '404.html'
       ];
 
       const distDir = path.resolve(process.cwd(), 'dist');

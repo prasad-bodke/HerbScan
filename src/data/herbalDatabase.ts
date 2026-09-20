@@ -1,6 +1,7 @@
 import { MedicinalPlant } from '../types';
+import { EXPANDED_HERBS } from './expandedHerbs';
 
-export const HERBAL_DATABASE: MedicinalPlant[] = [
+const CORE_HERBS: MedicinalPlant[] = [
   {
     id: 'bael',
     name: 'Bael (Bengal Quince)',
@@ -623,6 +624,11 @@ export const HERBAL_DATABASE: MedicinalPlant[] = [
   }
 ];
 
+export const HERBAL_DATABASE: MedicinalPlant[] = [
+  ...CORE_HERBS,
+  ...EXPANDED_HERBS
+];
+
 export const DAILY_TIPS: Array<{
   plantName: string;
   botanicalName: string;
@@ -650,6 +656,27 @@ export const DAILY_TIPS: Array<{
     tip: 'Taking half a teaspoon of Ashwagandha root powder with warm milk and a pinch of nutmeg 45 minutes before sleep calms cortisol spikes and promotes deep restorative REM sleep.',
     practicalUse: 'Moon Milk: Whisk half tsp root powder in warm cow milk or almond milk.',
     doshaBenefit: 'Pacifies aggravated Vata and calms the nervous system'
+  },
+  {
+    plantName: 'Shatavari (शतावरी)',
+    botanicalName: 'Asparagus racemosus',
+    tip: 'Shatavari root powder simmered in warm milk acts as a premier adaptogen, balancing female hormones, nourishing deep reproductive tissues, and healing gastric acid irritation.',
+    practicalUse: 'Hormonal Elixir: Stir 1 tsp Shatavari powder in warm milk with a pinch of cardamom.',
+    doshaBenefit: 'Pacifies Vata and Pitta, builds Ojas (vital essence)'
+  },
+  {
+    plantName: 'Arjuna (अर्जुन)',
+    botanicalName: 'Terminalia arjuna',
+    tip: 'Simmering Arjuna bark in cow milk (Arjuna Ksheerapaka) extracts bio-cardiotonic saponins while buffering astringency, strengthening myocardial contraction and regulating blood pressure.',
+    practicalUse: 'Heart Decoction: Boil 1 tsp bark powder in 1 cup milk and 1 cup water until water evaporates.',
+    doshaBenefit: 'Pacifies Kapha and Pitta, strengthens Hridaya (cardiac seat)'
+  },
+  {
+    plantName: 'Haritaki (हिरडा)',
+    botanicalName: 'Terminalia chebula',
+    tip: 'Taken at bedtime with warm water or a teaspoon of castor oil, Haritaki gently stimulates natural peristalsis, clears accumulated colon toxins, and revitalizes sensory perception.',
+    practicalUse: 'Bedtime Colon Cleanser: Take half tsp Haritaki churna with warm water before sleep.',
+    doshaBenefit: 'Tridoshic harmonizer, supreme Anulomana (downward-moving cleanser)'
   },
   {
     plantName: 'Giloy (गुळवेल)',

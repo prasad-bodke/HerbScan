@@ -23,6 +23,11 @@ const FILTER_TAGS = [
   'Respiratory',
   'Skin',
   'Brain',
+  'Heart',
+  'Liver',
+  'Kidney',
+  'Women Health',
+  'Joints',
 ];
 
 export const SearchScreen: React.FC<SearchScreenProps> = ({

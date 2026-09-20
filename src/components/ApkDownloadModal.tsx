@@ -19,6 +19,7 @@ export const ApkDownloadModal: React.FC<ApkDownloadModalProps> = ({ onClose }) =
   const [deferredPrompt, setDeferredPrompt] = useState<any>(null);
   const [installed, setInstalled] = useState(false);
   const [downloadStarted, setDownloadStarted] = useState(false);
+  const [showManualGuide, setShowManualGuide] = useState(false);
 
   useEffect(() => {
     const handleBeforeInstallPrompt = (e: any) => {
@@ -46,10 +47,7 @@ export const ApkDownloadModal: React.FC<ApkDownloadModalProps> = ({ onClose }) =
         setDeferredPrompt(null);
       }
     } else {
-      // In browser preview or if already prompted, guide user
-      alert(
-        'To install HerbScan as a native Android APK: Tap the 3-dots browser menu in Chrome / Samsung Internet and select "Install app" or "Add to Home Screen". This automatically builds a native WebAPK!'
-      );
+      setShowManualGuide(true);
     }
   };
 
@@ -58,7 +56,8 @@ export const ApkDownloadModal: React.FC<ApkDownloadModalProps> = ({ onClose }) =
     const manifestData = {
       name: 'HerbScan - Ayurvedic Plant Identifier & Research',
       short_name: 'HerbScan',
-      start_url: '/',
+      start_url: './',
+      scope: './',
       display: 'standalone',
       background_color: '#0e1713',
       theme_color: '#1b4332',
@@ -152,6 +151,19 @@ export const ApkDownloadModal: React.FC<ApkDownloadModalProps> = ({ onClose }) =
             <Download className="w-4 h-4" />
             <span>{installed ? 'Open Installed App' : 'Install Android WebAPK'}</span>
           </button>
+
+          {showManualGuide && (
+            <div className="p-3 rounded-xl bg-emerald-950/60 border border-emerald-600/40 text-left space-y-1.5 animate-in fade-in duration-200">
+              <span className="text-xs font-bold text-amber-300 block">
+                How to install in Google Chrome on your device:
+              </span>
+              <ol className="text-[11px] text-slate-200 list-decimal list-inside space-y-1">
+                <li>Tap the <strong>3 vertical dots (⋮)</strong> menu in Chrome at the top right.</li>
+                <li>Select <strong>"Install app"</strong> or <strong>"Add to Home screen"</strong>.</li>
+                <li>Android will generate a signed <strong>WebAPK</strong> on your phone with full camera access!</li>
+              </ol>
+            </div>
+          )}
         </div>
 
         {/* Option 2: Cloud APK / AAB Generator */}

@@ -13,6 +13,7 @@ import { PlantDetailModal } from './components/PlantDetailModal';
 import { ShareModal } from './components/ShareModal';
 import { NotificationModal } from './components/NotificationModal';
 import { ApkDownloadModal } from './components/ApkDownloadModal';
+import { InstallBanner } from './components/InstallBanner';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<ActiveTab>('home');
@@ -45,10 +46,10 @@ export default function App() {
     window.addEventListener('online', handleOnline);
     window.addEventListener('offline', handleOffline);
 
-    // Register Service Worker for offline capability
-    if ('serviceWorker' in navigator && process.env.NODE_ENV === 'production') {
-      navigator.serviceWorker.register('/sw.js').catch((err) => {
-        console.warn('SW registration failed:', err);
+    // Register Service Worker for offline capability & PWA installability
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./sw.js').catch((err) => {
+        console.warn('SW registration notice:', err);
       });
     }
 
@@ -107,6 +108,9 @@ export default function App() {
         onOpenApkModal={() => setShowApkModal(true)}
         isOnline={isOnline}
       />
+
+      {/* In-App One-Tap Android PWA Install Banner */}
+      <InstallBanner onOpenApkModal={() => setShowApkModal(true)} />
 
       {/* Main Content Area */}
       <main className="flex-1 w-full max-w-5xl mx-auto">

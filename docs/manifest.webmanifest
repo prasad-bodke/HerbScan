@@ -6,10 +6,15 @@
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "orientation": "portrait",
+  "orientation": "portrait-primary",
   "background_color": "#0e1713",
   "theme_color": "#1b4332",
-  "categories": ["health", "education", "medical", "lifestyle"],
+  "categories": [
+    "health",
+    "medical",
+    "education",
+    "lifestyle"
+  ],
   "icons": [
     {
       "src": "./pwa-192x192.png",
@@ -37,9 +42,53 @@
     },
     {
       "src": "./icon.svg",
-      "sizes": "any",
+      "sizes": "512x512",
       "type": "image/svg+xml",
       "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./screenshot-mobile.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "HerbScan Ayurvedic Plant Scanner & Identifier"
+    },
+    {
+      "src": "./screenshot-desktop.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "HerbScan Research Dashboard & Encyclopedia"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Scan Plant",
+      "short_name": "Scan",
+      "description": "Scan and identify Ayurvedic herbs with camera",
+      "url": "./#scanner",
+      "icons": [
+        {
+          "src": "./pwa-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Herb Directory",
+      "short_name": "Herbs",
+      "description": "Browse the Ayurvedic medicinal database offline",
+      "url": "./#directory",
+      "icons": [
+        {
+          "src": "./pwa-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
     }
   ]
 }

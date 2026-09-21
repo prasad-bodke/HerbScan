@@ -8,7 +8,7 @@ export const USER_HERBS_PART2: MedicinalPlant[] = [
     botanicalName: 'Coffea arabica L. / Coffea canephora Pierre ex A. Froehner (Robusta)',
     family: 'Rubiaceae',
     partUsed: 'Dried Ripe Seeds (Coffee Beans), Green Unroasted Coffee Beans, Leaves',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/4/4c/Coffea_arabica_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-038.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/c/c7/Coffee_Flowers.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original',
     traditionalUses: [
       'Central nervous system (CNS) stimulant that enhances alertness, psychomotor speed, and reduces mental fatigue.',
       'Chlorogenic acids in unroasted Green Coffee Bean extract support metabolic weight loss and improve glucose tolerance.',
@@ -82,7 +82,7 @@ export const USER_HERBS_PART2: MedicinalPlant[] = [
     botanicalName: 'Coriandrum sativum L.',
     family: 'Apiaceae (Umbelliferae)',
     partUsed: 'Dried Ripe Fruits (Coriander Seeds), Fresh Leaves (Cilantro / Kothimbir)',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/9/90/Coriandrum_sativum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-045.jpg',
+    image: 'https://images.unsplash.com/photo-1596660601552-331086eb015f?w=800&q=80',
     traditionalUses: [
       'Ayurveda’s renowned cooling digestive (Tridoshahara) that quells burning sensations, hyperacidity, and thirst (Trishna).',
       'Dhanyaka Hima (Cold water seed infusion) is the gold standard classical remedy for burning micturition, dysuria, and acute fevers.',
@@ -155,7 +155,7 @@ export const USER_HERBS_PART2: MedicinalPlant[] = [
     botanicalName: 'Datura metel L. / Datura stramonium L.',
     family: 'Solanaceae',
     partUsed: 'Purified Seeds (Shodhita Dhattura Beeja), Dried Leaves, Roots, Flowers',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/d/d4/Datura_metel_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-048.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/6/63/Datura_metel_Blanco1.34-cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original',
     traditionalUses: [
       'Ayurvedic Upavisha (semi-poison) strictly used only after classical detoxification (Shodhana in cow’s milk or Gomutra).',
       'Potent bronchodilator historically smoked or vaporized to rapidly arrest acute asthmatic bronchospasm (Asthma cigarettes).',
@@ -229,7 +229,7 @@ export const USER_HERBS_PART2: MedicinalPlant[] = [
     botanicalName: 'Ephedra sinica Stapf / Ephedra gerardiana Wall. ex C.A. Mey.',
     family: 'Ephedraceae',
     partUsed: 'Dried Green Herbaceous Aerial Stems',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/7/75/Ephedra_sinica_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-051.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/f/f5/Ephedra_sinica_alexlomas.jpg',
     traditionalUses: [
       'Revered in ancient Vedic texts as candidate for sacred "Soma" and in Chinese medicine as Ma Huang for over 5,000 years.',
       'Potent bronchodilator for acute bronchial asthma, wheezing, and allergic respiratory conditions.',
@@ -303,7 +303,7 @@ export const USER_HERBS_PART2: MedicinalPlant[] = [
     botanicalName: 'Claviceps purpurea (Fr.) Tul.',
     family: 'Clavicipitaceae',
     partUsed: 'Dried Sclerotium (fungal resting body developed in the ovary of Rye grass, Secale cereale)',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/0/0e/Claviceps_purpurea_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-039.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/c/ca/Claviceps_purpurea.JPG',
     traditionalUses: [
       'Historic pharmacognostic fungal drug utilized in obstetrics to stimulate vigorous uterine contractions in postpartum hemorrhage (PPH).',
       'Ergotamine is a time-tested specific abortive treatment for acute vascular migraine attacks via cranial vasoconstriction.',
@@ -377,7 +377,7 @@ export const USER_HERBS_PART2: MedicinalPlant[] = [
     botanicalName: 'Foeniculum vulgare Mill.',
     family: 'Apiaceae (Umbelliferae)',
     partUsed: 'Dried Ripe Fruits (Cremocarps / Fennel Seeds), Leaves, Roots',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/2/23/Foeniculum_vulgare_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-060.jpg',
+    image: 'https://images.unsplash.com/photo-1621644788390-349f783cb2b0?w=800&q=80',
     traditionalUses: [
       'The premier carminative chewed after meals across India to freshen breath, rekindle digestive Agni, and prevent bloating.',
       'Soothes infantile colic, griping abdominal pain, and pediatric indigestion (key ingredient in classic Gripe Water).',
@@ -450,7 +450,7 @@ export const USER_HERBS_PART2: MedicinalPlant[] = [
     botanicalName: 'Allium sativum L.',
     family: 'Amaryllidaceae (Alliaceae)',
     partUsed: 'Compound Bulb (Cloves / Lashuna Kanda), Fresh Bulb Juice, Garlic Oil',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/4/43/Allium_sativum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-008.jpg',
+    image: 'https://images.unsplash.com/photo-1588667622941-2b0f4dfb2907?w=800&q=80',
     traditionalUses: [
       'Ayurveda’s legendary Rasona (having 5 tastes minus sour): celebrated as the ultimate remedy for Vata disorders and arthritis.',
       'Cardiovascular protector: clinically reduces total cholesterol, LDL, triglycerides, and systolic blood pressure.',
@@ -524,7 +524,7 @@ export const USER_HERBS_PART2: MedicinalPlant[] = [
     botanicalName: 'Zingiber officinale Roscoe',
     family: 'Zingiberaceae',
     partUsed: 'Fresh Rhizome (Ardraka), Dried Peeled Rhizome (Shunthi / Sonth)',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/a/a2/Zingiber_officinale_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-146.jpg',
+    image: 'https://images.unsplash.com/photo-1615486171439-fd0575d1d643?w=800&q=80',
     traditionalUses: [
       'Ayurveda’s "Universal Medicine" (Vishvabhesaja): supreme digestive stimulant that ignites digestive fire without aggravating Pitta (in dry Shunthi form).',
       'Clinically demonstrated antiemetic for motion sickness, chemotherapy nausea, and pregnancy-induced morning sickness.',
@@ -670,7 +670,7 @@ export const USER_HERBS_PART2: MedicinalPlant[] = [
     botanicalName: 'Lavandula angustifolia Mill. (syn. Lavandula officinalis Chaix)',
     family: 'Lamiaceae',
     partUsed: 'Dried Flower Spikes (Flowering Tops), Pure Lavender Essential Oil',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/4/4b/Lavandula_angustifolia_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-085.jpg',
+    image: 'https://images.unsplash.com/photo-1498842812179-c81beecf902c?w=800&q=80',
     traditionalUses: [
       'Premier aromatherapeutic anxiolytic and sleep enhancer: inhalation reduces anxiety, calms autonomic nervous system, and induces deep sleep.',
       'Topical antiseptic and rapid wound healer for minor burns, scalds, cuts, and insect stings (pioneered by René-Maurice Gattefossé).',
@@ -744,7 +744,7 @@ export const USER_HERBS_PART2: MedicinalPlant[] = [
     botanicalName: 'Citrus limon (L.) Osbeck',
     family: 'Rutaceae',
     partUsed: 'Fresh Fruit Juice (Nimbuka Swarasa), Outer Fruit Peel (Lemon Zest / Oil), Seeds',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/d/da/Citrus_limon_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-043.jpg',
+    image: 'https://images.unsplash.com/photo-1590502593747-422e157eb108?w=800&q=80',
     traditionalUses: [
       'Premier natural source of Ascorbic acid (Vitamin C) that boosts immune defense and prevents scurvy.',
       'Rekindles suppressed digestive fire (Deepana), relieves nausea, vomiting (Chhardi), and quenches burning thirst.',
@@ -822,7 +822,7 @@ export const USER_HERBS_PART2: MedicinalPlant[] = [
     botanicalName: 'Commiphora myrrha (Nees) Engl. / Commiphora molmol (Engl.) Engl. ex Tschirch',
     family: 'Burseraceae',
     partUsed: 'Oleo-Gum Resin exuded from Stems and Trunk (Myrrh tears)',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/3/3f/Commiphora_myrrha_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-044.jpg',
+    image: 'https://images.unsplash.com/photo-1601051515281-a9f972b22ec3?w=800&q=80',
     traditionalUses: [
       'Ayurveda’s legendary Bola: supreme uterine cleansing agent and emmenagogue used in Bolabaddha Rasa and Bolaparipata.',
       'Classic antimicrobial gargle and mouthwash for aphthous stomatitis, gingivitis, pharyngitis, and periodontal pocket infections.',
@@ -896,7 +896,7 @@ export const USER_HERBS_PART2: MedicinalPlant[] = [
     botanicalName: 'Mentha x piperita L. (hybrid of Mentha aquatica x Mentha spicata)',
     family: 'Lamiaceae',
     partUsed: 'Dried Leaves, Flowering Tops, Peppermint Essential Oil (Menthol)',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/5/52/Mentha_piperita_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-092.jpg',
+    image: 'https://images.unsplash.com/photo-1628172828776-69e1c45952d9?w=800&q=80',
     traditionalUses: [
       'Clinically proven smooth muscle antispasmodic for Irritable Bowel Syndrome (IBS), abdominal cramps, and flatulence.',
       'Menthol stimulates TRPM8 cold-sensitive receptors in the skin and mucosa, producing a profound cooling and pain-relieving sensation.',
@@ -970,7 +970,7 @@ export const USER_HERBS_PART2: MedicinalPlant[] = [
     botanicalName: 'Camellia sinensis (L.) Kuntze',
     family: 'Theaceae',
     partUsed: 'Young Tender Leaf Shoots (Two Leaves and a Bud), Unfermented (Green), Fermented (Black)',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/d/d4/Camellia_sinensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-024.jpg',
+    image: 'https://images.unsplash.com/photo-1582793988951-9aed53148380?w=800&q=80',
     traditionalUses: [
       'Powerhouse antioxidant rich in Epigallocatechin Gallate (EGCG) that protects against cellular oxidative damage and carcinogenesis.',
       'Enhances cardiovascular longevity: improves endothelial function, lowers LDL cholesterol, and reduces arterial stiffness.',
@@ -1044,7 +1044,7 @@ export const USER_HERBS_PART2: MedicinalPlant[] = [
     botanicalName: 'Astragalus gummifer Labill. / Astragalus microcephalus Willd.',
     family: 'Fabaceae (Papilionaceae)',
     partUsed: 'Dried Gummy Exudation from Stems and Branches (Gum Tragacanth / Gond Katira ribbons/flakes)',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/8/87/Astragalus_gummifer_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-017.jpg',
+    image: 'https://images.unsplash.com/photo-1618221528657-6db27f8a3791?w=800&q=80',
     traditionalUses: [
       'Ayurveda and Unani’s supreme summer cooling agent: soaked in water, it swells into translucent jelly to prevent heatstroke, nosebleeds, and burning urination.',
       'Pharmaceutical demulcent and outstanding natural suspending and binding agent in tablets, emulsions, and heavy suspensions.',
@@ -1117,7 +1117,7 @@ export const USER_HERBS_PART2: MedicinalPlant[] = [
     botanicalName: 'Catharanthus roseus (L.) G. Don (syn. Vinca rosea L.)',
     family: 'Apocynaceae',
     partUsed: 'Dried Whole Plant, Leaves, Roots, Pink/White Flowers',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/6/6c/Madagascar_Periwinkle_%28Catharanthus_roseus%29.jpg',
+    image: 'https://images.unsplash.com/photo-1594951460309-17bfbf7c7be9?w=800&q=80',
     traditionalUses: [
       'The crown jewel of pharmacognostic oncology: source of Vincristine and Vinblastine, lifesaving chemotherapeutic agents.',
       'Vincristine is the mainstay curative treatment for childhood acute lymphoblastic leukemia (ALL), Hodgkin lymphoma, and Wilms tumor.',
@@ -1271,7 +1271,7 @@ export const USER_HERBS_PART2: MedicinalPlant[] = [
     botanicalName: 'Ferula foetida (Bunge) Regel / Ferula assa-foetida L.',
     family: 'Apiaceae (Umbelliferae)',
     partUsed: 'Oleo-Gum Resin exuded from Incisions in Living Taproots and Rhizomes',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/9/9e/Curcuma_amada_Mango_ginger.jpg',
+    image: 'https://images.unsplash.com/photo-1596700080649-0d4d42ec4cfb?w=800&q=80',
     traditionalUses: [
       'Ayurveda’s supreme carminative and Vata-pacifying spice: miraculous for acute abdominal bloating, flatulence, and colic.',
       'Applied externally as warm paste (Hing water) around the infant navel to instantly release trapped colic gas without ingestion.',

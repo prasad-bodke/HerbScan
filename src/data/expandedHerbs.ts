@@ -900,7 +900,7 @@ export const EXPANDED_HERBS: MedicinalPlant[] = [
     botanicalName: 'Convolvulus pluricaulis',
     family: 'Convolvulaceae',
     partUsed: 'Whole plant (Flowers, leaves, stems, roots)',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/5/5f/Convolvulus_prostratus.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/4/49/Convolvulus_prostratus_kz03.jpg',
     traditionalUses: [
       'Unsurpassed Medhya Rasayana (mind tonic) that enhances retention, recall speed, and intellectual focus.',
       'Potent natural anxiolytic and tranquilizer that reduces cortisol spikes and calms nervous tremors.',
@@ -974,7 +974,7 @@ export const EXPANDED_HERBS: MedicinalPlant[] = [
     botanicalName: 'Acorus calamus',
     family: 'Acoraceae',
     partUsed: 'Dried Rhizome',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/3/30/Acorus_calamus_1.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/3/37/Acorus_calamus1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original',
     traditionalUses: [
       'Renowned as "Vak-prada" (Bestower of eloquent speech), treating stuttering, voice hoarseness, and speech impediments.',
       'Clears thick Kapha obstruction from cranial sinuses, throat passages, and nasal pathways.',
@@ -1049,7 +1049,7 @@ export const EXPANDED_HERBS: MedicinalPlant[] = [
     botanicalName: 'Rauvolfia serpentina',
     family: 'Apocynaceae',
     partUsed: 'Root',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/Rauvolfia_serpentina_01.JPG',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/a/a2/Rauvolfia_serpentina_11.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original',
     traditionalUses: [
       'Historic botanical marvel from which modern psychiatry and cardiology discovered Reserpine.',
       'Premier remedy for essential hypertension, steadily lowering systolic and diastolic arterial pressures.',
@@ -1124,7 +1124,7 @@ export const EXPANDED_HERBS: MedicinalPlant[] = [
     botanicalName: 'Plumbago zeylanica',
     family: 'Plumbaginaceae',
     partUsed: 'Root and Root Bark',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/8/87/Plumbago_zeylanica_1.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/8/85/Plumbago_zeylanica1MTFL.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original',
     traditionalUses: [
       'Foremost botanical in Ayurveda for reigniting deficient digestive fire (Supreme Deepana and Pachana).',
       'Melts accumulated metabolic toxins (Ama) and digests sluggish, stagnant gastrointestinal waste.',

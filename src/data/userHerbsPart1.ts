@@ -227,7 +227,7 @@ export const USER_HERBS_PART1: MedicinalPlant[] = [
     botanicalName: 'Panax ginseng C.A. Meyer',
     family: 'Araliaceae',
     partUsed: 'Dried Taproot and Rhizome (White Ginseng & Red Steamed Ginseng)',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/7/7b/Panax_ginseng_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-101.jpg',
+    image: 'https://images.unsplash.com/photo-1582236319762-cb03f27476e3?w=800&q=80',
     traditionalUses: [
       'Supreme adaptogen in Traditional Oriental Medicine for replenishing primordial Qi, enhancing stamina, and longevity.',
       'Clinically demonstrated to improve cognitive function, working memory, reaction time, and mental endurance.',
@@ -670,7 +670,7 @@ export const USER_HERBS_PART1: MedicinalPlant[] = [
     botanicalName: 'Styrax benzoin Dryand. (Sumatra Benzoin) / Styrax tonkinensis (Siam Benzoin)',
     family: 'Styracaceae',
     partUsed: 'Balsamic Resin exuded from Incisions in Trunk Bark',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/1/1f/Styrax_benzoin_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-133.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original',
+    image: 'https://images.unsplash.com/photo-1601051515281-a9f972b22ec3?w=800&q=80',
     traditionalUses: [
       'Inhaled as steam with hot water (Friar’s Balsam / Compound Tincture of Benzoin) to liquefy tenacious bronchial mucus in laryngitis and bronchitis.',
       'Natural antiseptic skin protectant applied over minor cuts, bedsores, cracked nipples, and cold sores.',
@@ -743,7 +743,7 @@ export const USER_HERBS_PART1: MedicinalPlant[] = [
     botanicalName: 'Citrus aurantium L. subsp. amara',
     family: 'Rutaceae',
     partUsed: 'Dried Outer Fruit Peel (Epicarp and Mesocarp), Flowers (Neroli), Leaves (Petitgrain)',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/5/57/Citrus_aurantium_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-042.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original',
+    image: 'https://images.unsplash.com/photo-1590502593747-422e157eb108?w=800&q=80',
     traditionalUses: [
       'Aromatic bitter stomachic that stimulates digestive gastric juices, relieves flatulence, and treats loss of appetite.',
       'Rich source of Synephrine utilized in sports nutrition and thermogenic weight management supplements.',
@@ -816,7 +816,7 @@ export const USER_HERBS_PART1: MedicinalPlant[] = [
     botanicalName: 'Acacia catechu (L.f.) Willd. (Senegalia catechu (L.f.) P.J.H. Hurter & Mabb.)',
     family: 'Fabaceae (Mimosaceae)',
     partUsed: 'Dried Aqueous Extract of Heartwood (Kattha / Black Catechu)',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/a/a4/Acacia_catechu_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original',
+    image: 'https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80',
     traditionalUses: [
       'Ayurveda\'s foremost Kusthaghna (anti-dermatosis herb) for chronic eczema, psoriasis, acne, and vitiligo.',
       'Revered oral astringent applied directly on aphthous mouth ulcers, bleeding spongy gums, and pharyngitis.',
@@ -1040,7 +1040,7 @@ export const USER_HERBS_PART1: MedicinalPlant[] = [
     botanicalName: 'Ricinus communis L.',
     family: 'Euphorbiaceae',
     partUsed: 'Fixed Seed Oil (Castor Oil), Roots (Eranda Moola), Fresh Leaves',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/1/18/Ricinus_communis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-119.jpg',
+    image: 'https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80',
     traditionalUses: [
       'Ayurveda’s supreme Vata-pacifying herb: Eranda taila (Castor oil) is celebrated as the king of Vata diseases and sciatica (Gridhrasi).',
       'Classic purgative (Bhedana) that lubricates the bowels and expels deep-seated toxic Ama from joints and gut.',
@@ -1114,7 +1114,7 @@ export const USER_HERBS_PART1: MedicinalPlant[] = [
     botanicalName: 'Cinchona officinalis L. / Cinchona succirubra Pav. ex Klotzsch / Cinchona calisaya Wedd.',
     family: 'Rubiaceae',
     partUsed: 'Dried Stem and Root Bark (Peruvian Bark / Jesuit’s Bark)',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/d/df/Cinchona_officinalis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-036.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/7/7e/Curtis%27s_botanical_magazine_%288272601122%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original',
     traditionalUses: [
       'The historic antimalarial that transformed global medicine: source of Quinine, the first effective cure for Plasmodium falciparum malaria.',
       'Acts as a schizonticide against intra-erythrocytic malaria parasites and treats nocturnal muscle leg cramps.',
@@ -1188,7 +1188,7 @@ export const USER_HERBS_PART1: MedicinalPlant[] = [
     botanicalName: 'Cinnamomum verum J. Presl (syn. Cinnamomum zeylanicum Blume)',
     family: 'Lauraceae',
     partUsed: 'Dried Inner Bark of Shoots (Quills / Scraped inner bark)',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/8/82/Cinnamomum_verum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-037.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/e/e1/Cinnamomum_verum1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original',
     traditionalUses: [
       'Insulin-sensitizing spice: dramatically enhances glucose uptake, improves insulin receptor phosphorylation, and lowers HbA1c.',
       'Potent carminative and warming digestive for flatulence, intestinal colic, and slow metabolic fire (Mandagni).',
@@ -1267,7 +1267,7 @@ export const USER_HERBS_PART1: MedicinalPlant[] = [
     botanicalName: 'Syzygium aromaticum (L.) Merr. & L.M. Perry (Eugenia caryophyllata Thunb.)',
     family: 'Myrtaceae',
     partUsed: 'Dried Unexpanded Flower Buds',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/0/05/Syzygium_aromaticum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-134.jpg',
+    image: 'https://images.unsplash.com/photo-1610452391054-ff1500d07525?w=800&q=80',
     traditionalUses: [
       'The supreme dental analgesic and antiseptic: applied directly or as Clove oil on aching teeth, cavities, and gums.',
       'Potent carminative and anti-spasmodic that arrests gastric hiccups, vomiting, flatulence, and indigestion.',

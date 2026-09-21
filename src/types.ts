@@ -31,6 +31,7 @@ export interface MedicinalPlant {
   image: string;
   traditionalUses: string[];
   safetyPrecautions: string[];
+  sideEffects?: string[];
   phytochemicals: string[];
   dosageForms: string[];
   ayurvedicProperties: AyurvedicProperties;

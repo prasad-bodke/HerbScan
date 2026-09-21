@@ -4,6 +4,8 @@ import {
   Bookmark,
   Share2,
   AlertTriangle,
+  AlertOctagon,
+  AlertCircle,
   FlaskConical,
   Trophy,
   CheckCircle,
@@ -62,6 +64,10 @@ export const PlantDetailModal: React.FC<PlantDetailModalProps> = ({
             src={plant.image}
             alt={plant.name}
             className="w-full h-full object-cover"
+            referrerPolicy="no-referrer"
+            onError={(e) => {
+              (e.currentTarget as HTMLImageElement).src = 'https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=1000&q=80';
+            }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-[#0f1f18] via-[#0f1f18]/40 to-transparent"></div>
 
@@ -207,6 +213,29 @@ export const PlantDetailModal: React.FC<PlantDetailModalProps> = ({
                   <span>{precaution}</span>
                 </div>
               ))}
+            </div>
+          </div>
+
+          {/* Known Side Effects & Adverse Reactions */}
+          <div className="pt-5 space-y-2.5">
+            <div className="flex items-center gap-2 text-rose-400 font-bold">
+              <AlertOctagon className="w-4 h-4 text-rose-400" />
+              <h3 className="text-sm uppercase tracking-wider">⚠️ Side Effects & Adverse Reactions</h3>
+            </div>
+            <div className="bg-rose-950/30 border border-rose-800/40 rounded-xl p-3.5 space-y-2">
+              {plant.sideEffects && plant.sideEffects.length > 0 ? (
+                plant.sideEffects.map((effect, idx) => (
+                  <div key={idx} className="flex items-start gap-2 text-xs text-rose-200/90 leading-relaxed">
+                    <AlertCircle className="w-3.5 h-3.5 text-rose-400 shrink-0 mt-0.5" />
+                    <span>{effect}</span>
+                  </div>
+                ))
+              ) : (
+                <div className="flex items-start gap-2 text-xs text-rose-200/90 leading-relaxed">
+                  <AlertCircle className="w-3.5 h-3.5 text-rose-400 shrink-0 mt-0.5" />
+                  <span>Generally well-tolerated at recommended therapeutic doses. Overconsumption may cause digestive distress.</span>
+                </div>
+              )}
             </div>
           </div>
 

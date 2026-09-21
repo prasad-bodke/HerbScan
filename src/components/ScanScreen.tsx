@@ -164,6 +164,10 @@ export const ScanScreen: React.FC<ScanScreenProps> = ({
             image: imageSrc,
             traditionalUses: data.traditionalUses || ['Traditional therapeutic herbal application'],
             safetyPrecautions: data.safetyPrecautions || ['Consult an Ayurvedic practitioner before use'],
+            sideEffects: data.sideEffects || [
+              'High dosage may cause gastric mucosal irritation or mild nausea.',
+              'Excessive long-term use should be avoided without professional guidance.'
+            ],
             phytochemicals: data.phytochemicals || ['Polyphenols', 'Flavonoids', 'Tannins'],
             dosageForms: data.dosageForms || ['Churna (Powder): 3-5g', 'Decoction: 15-30mL'],
             ayurvedicProperties: data.ayurvedicProperties || {

@@ -1,5 +1,143 @@
 import { MedicinalPlant } from '../types';
 import { EXPANDED_HERBS } from './expandedHerbs';
+import { USER_REQUESTED_HERBS } from './userRequestedHerbs';
+
+const CORE_AND_EXPANDED_SIDE_EFFECTS: Record<string, string[]> = {
+  bael: [
+    'Constipation and intestinal sluggishness if unripe astringent fruit pulp is consumed in excess.',
+    'Abdominal bloating and flatulence with heavy raw pulp ingestion.',
+    'Hypoglycemic potentiating effect when co-administered with prescription antidiabetic medications.'
+  ],
+  tulsi: [
+    'Mild inhibition of platelet aggregation and thromboxane synthesis; caution before scheduled surgery or with blood thinners.',
+    'Mild hypoglycemic action; monitor blood sugar if taking insulin or sulfonylureas.',
+    'Potential anti-fertility effects demonstrated in high-dose animal studies; use moderate doses when actively planning pregnancy.'
+  ],
+  ashwagandha: [
+    'Mild daytime drowsiness or sedation, especially when combined with anxiolytics, benzodiazepines, or alcohol.',
+    'Gastrointestinal upset, mild nausea, or loose stools with high single doses of raw unboiled root powder.',
+    'May stimulate thyroid hormone synthesis (elevated T3/T4); exercise clinical caution in pre-existing hyperthyroidism.',
+    'Immune stimulation; consult physician in systemic autoimmune conditions (lupus, rheumatoid arthritis, Hashimoto’s).'
+  ],
+  neem: [
+    'Neem seed oil is strictly for external use; oral ingestion by infants has caused toxic metabolic encephalopathy and vomiting.',
+    'Hypoglycemia risk when consumed in large quantities alongside anti-diabetic pharmaceuticals.',
+    'Mild reversible suppression of spermatogenesis and potential abortifacient action; contraindicated in active pregnancy.'
+  ],
+  haridra: [
+    'Gastrointestinal discomfort, acid reflux, and diarrhea when consuming high doses of isolated unbuffered curcumin extracts.',
+    'Stimulates gallbladder contractions; contraindicated in active obstructive gallstones or acute biliary duct obstruction.',
+    'Mild antiplatelet effect; caution in patients on warfarin, aspirin, or clopidogrel.'
+  ],
+  amla: [
+    'Mild gastric irritation or hyperacidity in highly sensitive individuals when consumed raw on an empty stomach.',
+    'Mild laxative action with stool softening when taken in very high quantities due to rich vitamin C and fiber.',
+    'Caution with anticoagulant and antiplatelet drugs due to mild anti-thrombotic activity.'
+  ],
+  brahmi: [
+    'Mild nausea, increased intestinal motility, and abdominal cramps if taken on an empty stomach without food.',
+    'Transient dry mouth and fatigue or lethargy with high sedative doses.',
+    'Mild bradycardia (slowing of resting heart rate); caution in patients with sick sinus syndrome or pre-existing severe bradycardia.'
+  ],
+  vasaka: [
+    'Gastric irritation, nausea, and vomiting when taken in excessive or unpurified doses.',
+    'Uterine stimulant action via vasicine; contraindicated during pregnancy as it may provoke uterine contractions.',
+    'May potentiate the bronchial secretion breakdown of pharmaceutical expectorants.'
+  ],
+  giloy: [
+    'Occasional mild constipation when consumed in high decoction doses over prolonged periods.',
+    'Mild asymptomatic hypoglycemia; monitor diabetic patients.',
+    'Theoretical immune stimulation; exercise caution in autoimmune disease flare-ups.'
+  ],
+  shatavari: [
+    'Mild diuretic effect resulting in increased urinary frequency.',
+    'Potential fluid retention or weight gain with excessive chronic consumption in sluggish Kapha constitutions.',
+    'Caution in hormone-receptor positive reproductive tumors due to mild phytoestrogenic activity.'
+  ],
+  guggulu: [
+    'Mild gastrointestinal distress, loose stools, nausea, and belching with unpurified raw oleoresin.',
+    'Cutaneous allergic skin rash, pruritus, or urticaria in sensitive individuals.',
+    'May stimulate thyroid gland output and interact with thyroid hormone replacement therapy.'
+  ],
+  haritaki: [
+    'Dehydration, extreme dryness, and physical fatigue if consumed during prolonged fasting or severe exhaustion.',
+    'Contraindicated in acute pregnancy due to mild downward-cleansing (Anulomana/Virechana) peristaltic action.',
+    'Transient abdominal cramping if taken without sufficient warm water.'
+  ],
+  bibhitaki: [
+    'Mild astringent dryness of throat and temporary constipation with excessive dry powder intake without ghee or honey.',
+    'Mild sedative effect when consumed in high doses.'
+  ],
+  arjuna: [
+    'Mild constipation, abdominal distension, and flatulence with raw unboiled bark powder.',
+    'Transient mild headache or dizziness in patients with low baseline systolic blood pressure.',
+    'Potentiates cardiac inotropic drugs and anti-hypertensives; requires blood pressure monitoring.'
+  ],
+  manjistha: [
+    'Harmless temporary reddish or orange-brown discoloration of urine, sweat, and breast milk.',
+    'Contraindicated during pregnancy due to potential uterine stimulating properties.',
+    'Mild constipation in dry Vata constitutions if taken without unctuous fluids.'
+  ],
+  yashtimadhu: [
+    'Pseudoaldosteronism with prolonged high-dose glycyrrhizin consumption: sodium retention, potassium loss (hypokalemia), and elevated blood pressure.',
+    'Peripheral edema in lower limbs with long-term unmonitored licorice confectionery consumption.',
+    'Contraindicated in uncontrolled hypertension, severe congestive heart failure, and renal impairment.'
+  ],
+  punarnava: [
+    'Increased urine output (diuresis) which may alter electrolyte balance if fluid intake is inadequate.',
+    'Mild laxative action with high root decoction doses.',
+    'Caution when taken concurrently with prescription loop or thiazide diuretics.'
+  ],
+  kalmegh: [
+    'Intensely persistent bitter taste inducing temporary anorexia or nausea.',
+    'Gastric discomfort and loose stools at elevated doses.',
+    'Reversible reduction in spermatogenesis observed in preclinical animal studies at chronic mega-doses.'
+  ],
+  kutki: [
+    'Watery diarrhea, griping abdominal colic, and dehydration if purgative dosage threshold is exceeded.',
+    'Nausea and vomiting with high concentrated bitter decoctions.',
+    'Contraindicated in severe emaciation and non-specific chronic diarrhea.'
+  ],
+  bhringraj: [
+    'Slight sensation of body cooling or chilliness in individuals prone to respiratory allergies.',
+    'Mild stomach upset if taken raw without warm milk, honey, or ghee carrier.'
+  ],
+  gotukola: [
+    'Mild sedation, drowsiness, and headache with elevated doses.',
+    'Cutaneous contact allergic dermatitis when applied topically in rare hypersensitive skin types.',
+    'Rare idiosyncratic liver enzyme elevations reported with prolonged mega-doses.'
+  ],
+  shankhpushpi: [
+    'Mild sedative effect and daytime lethargy.',
+    'Mild hypotensive action; monitor in individuals with chronic low blood pressure.',
+    'Potential reduction in plasma phenytoin levels when co-administered with anticonvulsants.'
+  ],
+  sarpgandha: [
+    'Pronounced bradycardia (slow heart rate) and orthostatic/postural hypotension with dizziness upon standing.',
+    'Severe nasal mucosal congestion (stuffy nose) due to peripheral vasodilation.',
+    'Mental depression, emotional lethargy, and dysphoria with chronic high-dose reserpine depletion of biogenic amines.',
+    'Gastric acid hypersecretion; strictly contraindicated in active peptic ulcer disease.'
+  ],
+  chitrak: [
+    'Severe burning sensation in the gastrointestinal tract and mucosal irritation if consumed unpurified.',
+    'Abortifacient and emmenagogue: strictly contraindicated in pregnancy.',
+    'Skin blistering and contact dermatitis upon contact with fresh root sap.'
+  ],
+  vacha: [
+    'Strong emetic action (induces vomiting) and nausea when dose exceeds therapeutic micro-range.',
+    'High-dose toxicity concerns linked to beta-asarone in European/American calamus varieties.',
+    'Contraindicated in active bleeding disorders and hyperacidity.'
+  ],
+  vidanga: [
+    'Mild nausea and diarrhea with excessive dose.',
+    'Reversible contraceptive / anti-fertility effects due to embelin; avoid during conception planning.',
+    'May produce reddish discoloration of urine.'
+  ],
+  lodhra: [
+    'Mild constipation and throat dryness due to high astringent tannin content.',
+    'Suppresses menstrual bleeding; should not be used in amenorrhea or oligomenorrhea without expert guidance.'
+  ]
+};
 
 const CORE_HERBS: MedicinalPlant[] = [
   {
@@ -624,10 +762,31 @@ const CORE_HERBS: MedicinalPlant[] = [
   }
 ];
 
-export const HERBAL_DATABASE: MedicinalPlant[] = [
-  ...CORE_HERBS,
-  ...EXPANDED_HERBS
+const enrichPlant = (plant: MedicinalPlant): MedicinalPlant => {
+  const specificSideEffects = CORE_AND_EXPANDED_SIDE_EFFECTS[plant.id] || plant.sideEffects || [
+    'Mild gastrointestinal discomfort or loose stools with unmeasured raw dosage.',
+    'Use with medical supervision during pregnancy and lactation.',
+    'Monitor blood glucose or blood pressure if taking concurrent prescription medications.'
+  ];
+  return {
+    ...plant,
+    sideEffects: plant.sideEffects && plant.sideEffects.length > 0 ? plant.sideEffects : specificSideEffects
+  };
+};
+
+const ALL_HERBS_RAW: MedicinalPlant[] = [
+  ...CORE_HERBS.map(enrichPlant),
+  ...EXPANDED_HERBS.map(enrichPlant),
+  ...USER_REQUESTED_HERBS.map(enrichPlant)
 ];
+
+// Ensure unique IDs
+const seenIds = new Set<string>();
+export const HERBAL_DATABASE: MedicinalPlant[] = ALL_HERBS_RAW.filter(plant => {
+  if (seenIds.has(plant.id)) return false;
+  seenIds.add(plant.id);
+  return true;
+});
 
 export const DAILY_TIPS: Array<{
   plantName: string;

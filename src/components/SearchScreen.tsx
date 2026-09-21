@@ -110,6 +110,20 @@ export const SearchScreen: React.FC<SearchScreenProps> = ({
         )}
       </div>
 
+      {/* Quick Marathi Herb Suggestion Chips */}
+      <div className="flex items-center gap-1.5 overflow-x-auto pb-1 text-[11px] no-scrollbar">
+        <span className="text-amber-400/90 font-bold shrink-0 mr-1">मराठी शोधा:</span>
+        {['कोरफड', 'सोनामुखी', 'ब्राह्मी', 'शतावरी', 'अश्वगंधा', 'दालचिनी', 'लवंग', 'लसूण', 'हिंग', 'आंबा हळद', 'सदाफुली'].map((mName) => (
+          <button
+            key={mName}
+            onClick={() => setSearchQuery(mName)}
+            className="px-2.5 py-0.5 rounded-full bg-amber-950/40 hover:bg-amber-900/60 border border-amber-800/50 text-amber-200 shrink-0 transition-all font-sans"
+          >
+            {mName}
+          </button>
+        ))}
+      </div>
+
       {/* Filter Chips Scrollbar */}
       <div className="flex items-center gap-2 overflow-x-auto pb-1 no-scrollbar text-xs">
         <span className="text-slate-400 shrink-0 flex items-center gap-1 font-medium pl-1">

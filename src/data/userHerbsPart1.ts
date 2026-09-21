@@ -8,7 +8,7 @@ export const USER_HERBS_PART1: MedicinalPlant[] = [
     botanicalName: 'Aloe barbadensis Miller (Aloe vera)',
     family: 'Asphodelaceae (Liliaceae)',
     partUsed: 'Succulent Leaves, Leaf Gel, Dried Leaf Juice (Aloes)',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/4/4c/Aloe_arborescens_on_Monte_Vumba_%284387600468%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original',
     traditionalUses: [
       'Topical application of inner gel for 1st & 2nd degree burn healing, sunburn, and skin hydration.',
       'Aloin-containing dried juice acts as a potent anthraquinone stimulant laxative in chronic constipation.',
@@ -82,7 +82,7 @@ export const USER_HERBS_PART1: MedicinalPlant[] = [
     botanicalName: 'Cassia angustifolia Vahl (Senna alexandrina Mill.)',
     family: 'Fabaceae (Caesalpiniaceae)',
     partUsed: 'Dried Leaflets, Pods (Legumes)',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/4/46/Senna_alexandrina_02.jpg',
     traditionalUses: [
       'Standardized stimulant laxative widely indicated for acute constipation and pre-radiological bowel evacuation.',
       'Used in Ayurvedic formulations like Panchasakar Churna and Swadista Virechan Churna to clear Pitta and digestive toxins.',
@@ -156,7 +156,7 @@ export const USER_HERBS_PART1: MedicinalPlant[] = [
     botanicalName: 'Digitalis purpurea L. / Digitalis lanata Ehrh.',
     family: 'Plantaginaceae (Scrophulariaceae)',
     partUsed: 'Dried Leaves (harvested in 2nd year of growth during flowering)',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/b/ba/Digitalis_purpurea_LC0101.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original',
     traditionalUses: [
       'Historical cardiotonic discovered by William Withering (1785) for the treatment of congestive heart failure and cardiac edema (dropsy).',
       'Rate-control agent in atrial fibrillation, atrial flutter, and supraventricular tachycardias.',
@@ -227,7 +227,7 @@ export const USER_HERBS_PART1: MedicinalPlant[] = [
     botanicalName: 'Panax ginseng C.A. Meyer',
     family: 'Araliaceae',
     partUsed: 'Dried Taproot and Rhizome (White Ginseng & Red Steamed Ginseng)',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/7/7b/Panax_ginseng_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-101.jpg',
     traditionalUses: [
       'Supreme adaptogen in Traditional Oriental Medicine for replenishing primordial Qi, enhancing stamina, and longevity.',
       'Clinically demonstrated to improve cognitive function, working memory, reaction time, and mental endurance.',
@@ -300,7 +300,7 @@ export const USER_HERBS_PART1: MedicinalPlant[] = [
     botanicalName: 'Tribulus terrestris L.',
     family: 'Zygophyllaceae',
     partUsed: 'Spiny Dried Fruits (Burrs), Roots, Whole Plant',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/4/47/Gokhru_%28Pakhra%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original',
     traditionalUses: [
       'Premier Ayurvedic Mutravirechaniya (diuretic) and lithontriptic herb for kidney stones (Ashmari) and dysuria.',
       'Supports male reproductive health, boosts vigor, enhances spermatogenesis, and addresses erectile dysfunction.',
@@ -374,7 +374,7 @@ export const USER_HERBS_PART1: MedicinalPlant[] = [
     botanicalName: 'Prunus amygdalus Batsch var. amara (DC.) Focke',
     family: 'Rosaceae',
     partUsed: 'Dried Ripe Kernels (Seeds), Volatile Oil of Bitter Almond',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/3/37/Almonds_-_in_shell%2C_shell_cracked_open%2C_shelled%2C_blanched.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original',
     traditionalUses: [
       'Historically used in pharmacognosy and homeopathy as an antispasmodic and respiratory cough sedative.',
       'Bitter almond oil (free from hydrocyanic acid / Prussic acid) is used as a premium cosmetic emollient.',
@@ -446,7 +446,7 @@ export const USER_HERBS_PART1: MedicinalPlant[] = [
     botanicalName: 'Acacia arabica (Lam.) Willd. / Vachellia nilotica (L.) P.J.H. Hurter & Mabb.',
     family: 'Fabaceae (Mimosaceae)',
     partUsed: 'Stem Bark, Natural Exuded Gum (Babool Gond), Fresh Twigs (Datun), Pods',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/7/70/Seedpods_on_Vachellia_nilotica%2C_Jhunir.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original',
     traditionalUses: [
       'Fresh tender twigs are traditionally chewed as natural toothbrushes (Datun) to strengthen gums, treat gingivitis, and remove dental plaque.',
       'Bark decoction is an outstanding astringent gargle for bleeding gums, aphthous stomatitis, and sore throat.',
@@ -518,7 +518,7 @@ export const USER_HERBS_PART1: MedicinalPlant[] = [
     botanicalName: 'Saraca asoca (Roxb.) Willd. (syn. Saraca indica L.)',
     family: 'Fabaceae (Caesalpiniaceae)',
     partUsed: 'Stem Bark, Dried Flowers',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/6/6d/Asokaflower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original',
     traditionalUses: [
       'The supreme Ayurvedic uterine tonic (Garbhashaya Shothahara) for menorrhagia, metrorrhagia, and dysmenorrhea.',
       'Constitutes the primary active herb in classical Ashokarishta for stabilizing hormonal balance and ovarian cycles.',
@@ -591,7 +591,7 @@ export const USER_HERBS_PART1: MedicinalPlant[] = [
     botanicalName: 'Atropa belladonna L.',
     family: 'Solanaceae',
     partUsed: 'Dried Leaves and Flowering Tops, Dried Roots',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/c/cf/Atropa_belladonna_RF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original',
     traditionalUses: [
       'Classic anticholinergic and parasympatholytic botanical containing tropane alkaloids.',
       'Potent antispasmodic for relieving gastrointestinal colic, biliary spasm, and renal colic.',
@@ -670,7 +670,7 @@ export const USER_HERBS_PART1: MedicinalPlant[] = [
     botanicalName: 'Styrax benzoin Dryand. (Sumatra Benzoin) / Styrax tonkinensis (Siam Benzoin)',
     family: 'Styracaceae',
     partUsed: 'Balsamic Resin exuded from Incisions in Trunk Bark',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/1/1f/Styrax_benzoin_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-133.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original',
     traditionalUses: [
       'Inhaled as steam with hot water (Friar’s Balsam / Compound Tincture of Benzoin) to liquefy tenacious bronchial mucus in laryngitis and bronchitis.',
       'Natural antiseptic skin protectant applied over minor cuts, bedsores, cracked nipples, and cold sores.',
@@ -743,7 +743,7 @@ export const USER_HERBS_PART1: MedicinalPlant[] = [
     botanicalName: 'Citrus aurantium L. subsp. amara',
     family: 'Rutaceae',
     partUsed: 'Dried Outer Fruit Peel (Epicarp and Mesocarp), Flowers (Neroli), Leaves (Petitgrain)',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/5/57/Citrus_aurantium_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-042.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original',
     traditionalUses: [
       'Aromatic bitter stomachic that stimulates digestive gastric juices, relieves flatulence, and treats loss of appetite.',
       'Rich source of Synephrine utilized in sports nutrition and thermogenic weight management supplements.',
@@ -816,7 +816,7 @@ export const USER_HERBS_PART1: MedicinalPlant[] = [
     botanicalName: 'Acacia catechu (L.f.) Willd. (Senegalia catechu (L.f.) P.J.H. Hurter & Mabb.)',
     family: 'Fabaceae (Mimosaceae)',
     partUsed: 'Dried Aqueous Extract of Heartwood (Kattha / Black Catechu)',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/a/a4/Acacia_catechu_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original',
     traditionalUses: [
       'Ayurveda\'s foremost Kusthaghna (anti-dermatosis herb) for chronic eczema, psoriasis, acne, and vitiligo.',
       'Revered oral astringent applied directly on aphthous mouth ulcers, bleeding spongy gums, and pharyngitis.',
@@ -889,7 +889,7 @@ export const USER_HERBS_PART1: MedicinalPlant[] = [
     botanicalName: 'Capsicum annuum L. / Capsicum frutescens L.',
     family: 'Solanaceae',
     partUsed: 'Dried Ripe Fruits (Pods with Seeds)',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/2/2d/Baby_Bell_pepper_%27%27Capsicum_annuum%27%27_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original',
     traditionalUses: [
       'Topical Capsaicin depletes Substance P from sensory C-nerve fibers, providing miraculous relief in osteoarthritis and neuropathic pain.',
       'Powerful circulatory stimulant that triggers peripheral vasodilation and improves systemic blood flow.',
@@ -967,7 +967,7 @@ export const USER_HERBS_PART1: MedicinalPlant[] = [
     botanicalName: 'Elettaria cardamomum (L.) Maton',
     family: 'Zingiberaceae',
     partUsed: 'Dried Ripe Fruits (Tri-locular capsules containing aromatic seeds)',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/2/2c/Elettaria_cardamomum_Capsules_and_seeds.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original',
     traditionalUses: [
       'The "Queen of Spices" - supreme aromatic digestive, antiemetic, and mouth freshener (Mukhadoshahara).',
       'Relieves nausea, vomiting (Chhardi), morning sickness, and burning sensations in the stomach.',
@@ -1040,7 +1040,7 @@ export const USER_HERBS_PART1: MedicinalPlant[] = [
     botanicalName: 'Ricinus communis L.',
     family: 'Euphorbiaceae',
     partUsed: 'Fixed Seed Oil (Castor Oil), Roots (Eranda Moola), Fresh Leaves',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/1/18/Ricinus_communis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-119.jpg',
     traditionalUses: [
       'Ayurveda’s supreme Vata-pacifying herb: Eranda taila (Castor oil) is celebrated as the king of Vata diseases and sciatica (Gridhrasi).',
       'Classic purgative (Bhedana) that lubricates the bowels and expels deep-seated toxic Ama from joints and gut.',
@@ -1114,7 +1114,7 @@ export const USER_HERBS_PART1: MedicinalPlant[] = [
     botanicalName: 'Cinchona officinalis L. / Cinchona succirubra Pav. ex Klotzsch / Cinchona calisaya Wedd.',
     family: 'Rubiaceae',
     partUsed: 'Dried Stem and Root Bark (Peruvian Bark / Jesuit’s Bark)',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/d/df/Cinchona_officinalis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-036.jpg',
     traditionalUses: [
       'The historic antimalarial that transformed global medicine: source of Quinine, the first effective cure for Plasmodium falciparum malaria.',
       'Acts as a schizonticide against intra-erythrocytic malaria parasites and treats nocturnal muscle leg cramps.',
@@ -1188,7 +1188,7 @@ export const USER_HERBS_PART1: MedicinalPlant[] = [
     botanicalName: 'Cinnamomum verum J. Presl (syn. Cinnamomum zeylanicum Blume)',
     family: 'Lauraceae',
     partUsed: 'Dried Inner Bark of Shoots (Quills / Scraped inner bark)',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/8/82/Cinnamomum_verum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-037.jpg',
     traditionalUses: [
       'Insulin-sensitizing spice: dramatically enhances glucose uptake, improves insulin receptor phosphorylation, and lowers HbA1c.',
       'Potent carminative and warming digestive for flatulence, intestinal colic, and slow metabolic fire (Mandagni).',
@@ -1267,7 +1267,7 @@ export const USER_HERBS_PART1: MedicinalPlant[] = [
     botanicalName: 'Syzygium aromaticum (L.) Merr. & L.M. Perry (Eugenia caryophyllata Thunb.)',
     family: 'Myrtaceae',
     partUsed: 'Dried Unexpanded Flower Buds',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/0/05/Syzygium_aromaticum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-134.jpg',
     traditionalUses: [
       'The supreme dental analgesic and antiseptic: applied directly or as Clove oil on aching teeth, cavities, and gums.',
       'Potent carminative and anti-spasmodic that arrests gastric hiccups, vomiting, flatulence, and indigestion.',

@@ -8,7 +8,7 @@ export const EXPANDED_HERBS: MedicinalPlant[] = [
     botanicalName: 'Asparagus racemosus',
     family: 'Asparagaceae',
     partUsed: 'Tuberous Roots',
-    image: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Asparagus_racemosus.JPG/3840px-Asparagus_racemosus.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail',
     traditionalUses: [
       'Revered as the supreme female rejuvenative (Rasayana), supporting hormonal balance across life stages.',
       'Potent natural galactagogue proven to increase breast milk production in nursing mothers.',
@@ -83,7 +83,7 @@ export const EXPANDED_HERBS: MedicinalPlant[] = [
     botanicalName: 'Commiphora wightii',
     family: 'Burseraceae',
     partUsed: 'Purified Oleo-gum-resin (Shuddha Guggulu)',
-    image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
     traditionalUses: [
       'Premier anti-arthritic (Amavata) herb that relieves joint pain, stiffness, and degenerative changes.',
       'Potent cholesterol and lipid regulator (Medoroga), clearing atherosclerotic plaques from blood vessels.',
@@ -158,7 +158,7 @@ export const EXPANDED_HERBS: MedicinalPlant[] = [
     botanicalName: 'Terminalia chebula',
     family: 'Combretaceae',
     partUsed: 'Pericarp of dry ripe fruit',
-    image: 'https://images.unsplash.com/photo-1596547609652-9cf5d8d76921?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
     traditionalUses: [
       'Celebrated as the "Mother of Herbs" and supreme bowel regulator (Anulomana) that cures constipation.',
       'Cleanses digestive tracts, stimulates sluggish appetite, and heals stubborn aphthous mouth ulcers.',
@@ -233,7 +233,7 @@ export const EXPANDED_HERBS: MedicinalPlant[] = [
     botanicalName: 'Terminalia bellirica',
     family: 'Combretaceae',
     partUsed: 'Fruit rind',
-    image: 'https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
     traditionalUses: [
       'Supreme remedy for chronic respiratory diseases, stubborn cough, hoarseness of voice, and excess throat phlegm.',
       'One of the essential three fruits of classical Triphala formulation, fostering eye health and hair pigmentation.',
@@ -307,7 +307,7 @@ export const EXPANDED_HERBS: MedicinalPlant[] = [
     botanicalName: 'Terminalia arjuna',
     family: 'Combretaceae',
     partUsed: 'Stem Bark',
-    image: 'https://images.unsplash.com/photo-1546842931-886c185b4c8c?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
     traditionalUses: [
       'Gold standard Ayurvedic cardiotonic (Hridya) that strengthens heart muscle myocardium and increases ejection fraction.',
       'Supports healthy blood pressure, lowers LDL oxidation, and regulates lipid metabolism.',
@@ -381,7 +381,7 @@ export const EXPANDED_HERBS: MedicinalPlant[] = [
     botanicalName: 'Rubia cordifolia',
     family: 'Rubiaceae',
     partUsed: 'Roots and Stems',
-    image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
     traditionalUses: [
       'Supreme Ayurvedic blood purifier (Raktashodhaka) and deep lymphatic cleanser.',
       'Dermatological miracle herb that clears cystic acne, chronic eczema, psoriasis, and vitiligo.',
@@ -455,7 +455,7 @@ export const EXPANDED_HERBS: MedicinalPlant[] = [
     botanicalName: 'Glycyrrhiza glabra',
     family: 'Fabaceae',
     partUsed: 'Roots and Stolons',
-    image: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
     traditionalUses: [
       'Premier soothing demulcent that relieves gastro-esophageal reflux disease (GERD) and accelerates peptic ulcer healing.',
       'Clarifies and strengthens the vocal cords (Kanthya), treating hoarseness, pharyngitis, and laryngitis.',
@@ -530,7 +530,7 @@ export const EXPANDED_HERBS: MedicinalPlant[] = [
     botanicalName: 'Boerhavia diffusa',
     family: 'Nyctaginaceae',
     partUsed: 'Whole plant and Roots',
-    image: 'https://images.unsplash.com/photo-1546842931-886c185b4c8c?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
     traditionalUses: [
       'Name literally means "That which renews or regenerates again and again", signaling unmatched renal regeneration.',
       'Potent natural potassium-sparing diuretic (Mutrala) that clears systemic edema, ascites, and swollen ankles.',
@@ -604,7 +604,7 @@ export const EXPANDED_HERBS: MedicinalPlant[] = [
     botanicalName: 'Andrographis paniculata',
     family: 'Acanthaceae',
     partUsed: 'Whole plant (Aerial parts)',
-    image: 'https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
     traditionalUses: [
       'Hailed as the "King of Bitters", it is the supreme hepatoprotective herb that cures sluggish liver and jaundice.',
       'Potent fever-breaker (Jwarahara) used historically to resolve malaria, dengue, and acute viral influenza.',
@@ -678,7 +678,7 @@ export const EXPANDED_HERBS: MedicinalPlant[] = [
     botanicalName: 'Picrorhiza kurroa',
     family: 'Plantaginaceae',
     partUsed: 'Dried Rhizome and Roots',
-    image: 'https://images.unsplash.com/photo-1596547609652-9cf5d8d76921?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
     traditionalUses: [
       'Prized Himalayan high-altitude herb for severe hepatic disorders, cirrhosis, and jaundice.',
       'Stimulates bile secretion from gallbladder (Cholagogue) and clears biliary sludge.',
@@ -752,7 +752,7 @@ export const EXPANDED_HERBS: MedicinalPlant[] = [
     botanicalName: 'Eclipta prostrata',
     family: 'Asteraceae',
     partUsed: 'Whole Plant',
-    image: 'https://images.unsplash.com/photo-1546842931-886c185b4c8c?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
     traditionalUses: [
       'Crowned as "King of Hair" (Keshya), it revitalizes dormant hair follicles and reverses premature graying.',
       'Soothes liver inflammation, clears toxic heat from blood, and enhances liver enzyme synthesis.',
@@ -826,7 +826,7 @@ export const EXPANDED_HERBS: MedicinalPlant[] = [
     botanicalName: 'Centella asiatica',
     family: 'Apiaceae',
     partUsed: 'Whole plant and Leaves',
-    image: 'https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
     traditionalUses: [
       'One of the four elite Medhya Rasayanas (intellect restorers) in Charaka Samhita, boosting memory and neuro-regeneration.',
       'Dramatically accelerates type I and III collagen synthesis, healing chronic venous ulcers and skin scars.',
@@ -900,7 +900,7 @@ export const EXPANDED_HERBS: MedicinalPlant[] = [
     botanicalName: 'Convolvulus pluricaulis',
     family: 'Convolvulaceae',
     partUsed: 'Whole plant (Flowers, leaves, stems, roots)',
-    image: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
     traditionalUses: [
       'Unsurpassed Medhya Rasayana (mind tonic) that enhances retention, recall speed, and intellectual focus.',
       'Potent natural anxiolytic and tranquilizer that reduces cortisol spikes and calms nervous tremors.',
@@ -974,7 +974,7 @@ export const EXPANDED_HERBS: MedicinalPlant[] = [
     botanicalName: 'Acorus calamus',
     family: 'Acoraceae',
     partUsed: 'Dried Rhizome',
-    image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
     traditionalUses: [
       'Renowned as "Vak-prada" (Bestower of eloquent speech), treating stuttering, voice hoarseness, and speech impediments.',
       'Clears thick Kapha obstruction from cranial sinuses, throat passages, and nasal pathways.',
@@ -1049,7 +1049,7 @@ export const EXPANDED_HERBS: MedicinalPlant[] = [
     botanicalName: 'Rauvolfia serpentina',
     family: 'Apocynaceae',
     partUsed: 'Root',
-    image: 'https://images.unsplash.com/photo-1596547609652-9cf5d8d76921?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
     traditionalUses: [
       'Historic botanical marvel from which modern psychiatry and cardiology discovered Reserpine.',
       'Premier remedy for essential hypertension, steadily lowering systolic and diastolic arterial pressures.',
@@ -1124,7 +1124,7 @@ export const EXPANDED_HERBS: MedicinalPlant[] = [
     botanicalName: 'Plumbago zeylanica',
     family: 'Plumbaginaceae',
     partUsed: 'Root and Root Bark',
-    image: 'https://images.unsplash.com/photo-1546842931-886c185b4c8c?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
     traditionalUses: [
       'Foremost botanical in Ayurveda for reigniting deficient digestive fire (Supreme Deepana and Pachana).',
       'Melts accumulated metabolic toxins (Ama) and digests sluggish, stagnant gastrointestinal waste.',
@@ -1199,7 +1199,7 @@ export const EXPANDED_HERBS: MedicinalPlant[] = [
     botanicalName: 'Embelia ribes',
     family: 'Primulaceae',
     partUsed: 'Dried Fruit / Berries',
-    image: 'https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
     traditionalUses: [
       'Uncontested "Krimighna" (supreme destroyer of intestinal parasites, worms, and micro-pathogens).',
       'Clears abdominal distension, stubborn flatulence, bloating, and painful cramps.',
@@ -1273,7 +1273,7 @@ export const EXPANDED_HERBS: MedicinalPlant[] = [
     botanicalName: 'Symplocos racemosa',
     family: 'Symplocaceae',
     partUsed: 'Stem Bark',
-    image: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/1280px-Ash_Tree_-_geograph.org.uk_-_590710.jpg',
     traditionalUses: [
       'Pre-eminent Ayurvedic gynecological astringent, arresting menorrhagia, metrorrhagia, and leucorrhea.',
       'Firms and tones the female reproductive tract, strengthening uterine ligaments and pelvic floor health.',

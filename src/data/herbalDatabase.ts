@@ -147,7 +147,7 @@ const CORE_HERBS: MedicinalPlant[] = [
     botanicalName: 'Aegle marmelos',
     family: 'Rutaceae',
     partUsed: 'Fruit (ripe & unripe), Leaves, Bark, Root',
-    image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/b/b2/Bael_%28Aegle_marmelos%29_tree_at_Narendrapur_W_IMG_4116.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled',
     traditionalUses: [
       'Unripe fruit is a revered remedy for chronic diarrhea, dysentery, and irritable bowel syndrome (IBS).',
       'Ripe fruit pulp acts as a refreshing digestive cooling tonic and gentle laxative.',
@@ -222,7 +222,7 @@ const CORE_HERBS: MedicinalPlant[] = [
     botanicalName: 'Ocimum sanctum (syn. Ocimum tenuiflorum)',
     family: 'Lamiaceae',
     partUsed: 'Leaves, Seeds, Whole aerial herb',
-    image: 'https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/0/01/Tulsi_or_Tulasi_Holy_basil.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled',
     traditionalUses: [
       'Adaptogen that promotes resilience against environmental and physical stress.',
       'Soothes respiratory tract inflammation, bronchitis, allergic cough, and asthma.',
@@ -291,7 +291,7 @@ const CORE_HERBS: MedicinalPlant[] = [
     botanicalName: 'Withania somnifera',
     family: 'Solanaceae',
     partUsed: 'Root (tuberous dried roots)',
-    image: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/a/ad/WithaniaFruit.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled',
     traditionalUses: [
       'Premier Ayurvedic Rasayana (rejuvenator) for vitality, cognitive support, and muscle strength.',
       'Reduces cortisol, alleviates chronic stress, insomnia, and nervous debility.',
@@ -359,7 +359,7 @@ const CORE_HERBS: MedicinalPlant[] = [
     botanicalName: 'Azadirachta indica',
     family: 'Meliaceae',
     partUsed: 'Leaves, Bark, Seeds, Seed oil, Flowers',
-    image: 'https://images.unsplash.com/photo-1546842931-886c185b4c8c?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Neem_Tree_in_Rajasthan%2C_India.jpg/1920px-Neem_Tree_in_Rajasthan%2C_India.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail',
     traditionalUses: [
       'Potent blood purifier (Rakta shodhak) for skin diseases like psoriasis, eczema, and acne.',
       'Antimicrobial, antifungal, and insecticidal properties widely used in natural hygiene.',
@@ -428,7 +428,7 @@ const CORE_HERBS: MedicinalPlant[] = [
     botanicalName: 'Phyllanthus emblica (syn. Emblica officinalis)',
     family: 'Phyllanthaceae',
     partUsed: 'Fruit (fresh and pericarp of dried fruit)',
-    image: 'https://images.unsplash.com/photo-1596547609652-9cf5d8d76921?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/7/7f/Phyllanthus_officinalis.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled',
     traditionalUses: [
       'Richest natural antioxidant source, fundamental cornerstone of Chyawanprash.',
       'Supports healthy eyesight (Chakshushya), hair luster, and collagen synthesis.',
@@ -496,7 +496,7 @@ const CORE_HERBS: MedicinalPlant[] = [
     botanicalName: 'Bacopa monnieri',
     family: 'Plantaginaceae',
     partUsed: 'Whole plant, Leaves, Stems',
-    image: 'https://images.unsplash.com/photo-1546842931-886c185b4c8c?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/5/56/Starr_010818-0007_Bacopa_monnieri.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled',
     traditionalUses: [
       'Renowned Medhya Rasayana (nootropic brain tonic) improving cognitive retention and mental clarity.',
       'Reduces anxiety, mental fatigue, and oxidative stress in neuronal tissue.',
@@ -564,7 +564,7 @@ const CORE_HERBS: MedicinalPlant[] = [
     botanicalName: 'Curcuma longa',
     family: 'Zingiberaceae',
     partUsed: 'Rhizome (fresh and cured dried)',
-    image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/a/ab/Turmeric_inflorescence.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled',
     traditionalUses: [
       'Universal anti-inflammatory, antiseptic, and natural antibiotic in Ayurveda.',
       'Soothes joint pain, swelling, and musculoskeletal stiffness.',
@@ -631,7 +631,7 @@ const CORE_HERBS: MedicinalPlant[] = [
     botanicalName: 'Tinospora cordifolia',
     family: 'Menispermaceae',
     partUsed: 'Stem (mature greenish succulent stems)',
-    image: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/0/0e/Tinospora_cordifolia.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled',
     traditionalUses: [
       'Called "Amrita" (nectar of immortality) for immunomodulation and fever management (Jwarahara).',
       'Removes metabolic toxins (Ama) in chronic infections and autoimmune disorders.',
@@ -699,7 +699,7 @@ const CORE_HERBS: MedicinalPlant[] = [
     botanicalName: 'Justicia adhatoda (syn. Adhatoda vasica)',
     family: 'Acanthaceae',
     partUsed: 'Leaves, Flowers, Root',
-    image: 'https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/0/0b/Justicia_adhatoda_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled',
     traditionalUses: [
       'The supreme Ayurvedic bronchodilator and expectorant for productive cough and asthma.',
       'Liquefies thick bronchial mucus and eases dyspnea.',

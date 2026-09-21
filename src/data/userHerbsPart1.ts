@@ -227,7 +227,7 @@ export const USER_HERBS_PART1: MedicinalPlant[] = [
     botanicalName: 'Panax ginseng C.A. Meyer',
     family: 'Araliaceae',
     partUsed: 'Dried Taproot and Rhizome (White Ginseng & Red Steamed Ginseng)',
-    image: 'https://images.unsplash.com/photo-1582236319762-cb03f27476e3?w=800&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/e/ef/Panax_ginseng_C.A.Mey._3399124768.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original',
     traditionalUses: [
       'Supreme adaptogen in Traditional Oriental Medicine for replenishing primordial Qi, enhancing stamina, and longevity.',
       'Clinically demonstrated to improve cognitive function, working memory, reaction time, and mental endurance.',
@@ -670,7 +670,7 @@ export const USER_HERBS_PART1: MedicinalPlant[] = [
     botanicalName: 'Styrax benzoin Dryand. (Sumatra Benzoin) / Styrax tonkinensis (Siam Benzoin)',
     family: 'Styracaceae',
     partUsed: 'Balsamic Resin exuded from Incisions in Trunk Bark',
-    image: 'https://images.unsplash.com/photo-1601051515281-a9f972b22ec3?w=800&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/1/1f/Styrax_benzoin_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-133.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original',
     traditionalUses: [
       'Inhaled as steam with hot water (Friar’s Balsam / Compound Tincture of Benzoin) to liquefy tenacious bronchial mucus in laryngitis and bronchitis.',
       'Natural antiseptic skin protectant applied over minor cuts, bedsores, cracked nipples, and cold sores.',
@@ -743,7 +743,7 @@ export const USER_HERBS_PART1: MedicinalPlant[] = [
     botanicalName: 'Citrus aurantium L. subsp. amara',
     family: 'Rutaceae',
     partUsed: 'Dried Outer Fruit Peel (Epicarp and Mesocarp), Flowers (Neroli), Leaves (Petitgrain)',
-    image: 'https://images.unsplash.com/photo-1590502593747-422e157eb108?w=800&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/c/cb/Citrus_aurentium_spp.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original',
     traditionalUses: [
       'Aromatic bitter stomachic that stimulates digestive gastric juices, relieves flatulence, and treats loss of appetite.',
       'Rich source of Synephrine utilized in sports nutrition and thermogenic weight management supplements.',
@@ -816,7 +816,7 @@ export const USER_HERBS_PART1: MedicinalPlant[] = [
     botanicalName: 'Acacia catechu (L.f.) Willd. (Senegalia catechu (L.f.) P.J.H. Hurter & Mabb.)',
     family: 'Fabaceae (Mimosaceae)',
     partUsed: 'Dried Aqueous Extract of Heartwood (Kattha / Black Catechu)',
-    image: 'https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/a/a4/Acacia_catechu_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original',
     traditionalUses: [
       'Ayurveda\'s foremost Kusthaghna (anti-dermatosis herb) for chronic eczema, psoriasis, acne, and vitiligo.',
       'Revered oral astringent applied directly on aphthous mouth ulcers, bleeding spongy gums, and pharyngitis.',
@@ -1040,7 +1040,7 @@ export const USER_HERBS_PART1: MedicinalPlant[] = [
     botanicalName: 'Ricinus communis L.',
     family: 'Euphorbiaceae',
     partUsed: 'Fixed Seed Oil (Castor Oil), Roots (Eranda Moola), Fresh Leaves',
-    image: 'https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/6/6d/Ricinus_communis5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original',
     traditionalUses: [
       'Ayurveda’s supreme Vata-pacifying herb: Eranda taila (Castor oil) is celebrated as the king of Vata diseases and sciatica (Gridhrasi).',
       'Classic purgative (Bhedana) that lubricates the bowels and expels deep-seated toxic Ama from joints and gut.',
@@ -1267,7 +1267,7 @@ export const USER_HERBS_PART1: MedicinalPlant[] = [
     botanicalName: 'Syzygium aromaticum (L.) Merr. & L.M. Perry (Eugenia caryophyllata Thunb.)',
     family: 'Myrtaceae',
     partUsed: 'Dried Unexpanded Flower Buds',
-    image: 'https://images.unsplash.com/photo-1610452391054-ff1500d07525?w=800&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/4/4b/Syzygium_aromaticum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-030.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original',
     traditionalUses: [
       'The supreme dental analgesic and antiseptic: applied directly or as Clove oil on aching teeth, cavities, and gums.',
       'Potent carminative and anti-spasmodic that arrests gastric hiccups, vomiting, flatulence, and indigestion.',

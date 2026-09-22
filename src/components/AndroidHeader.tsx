@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Leaf, Bell, Moon, Sun, Smartphone, Wifi, WifiOff } from 'lucide-react';
+import React from 'react';
+import { Leaf, Bell, Moon, Sun, Smartphone } from 'lucide-react';
 
 interface AndroidHeaderProps {
   darkMode: boolean;
@@ -14,44 +14,9 @@ export const AndroidHeader: React.FC<AndroidHeaderProps> = ({
   onToggleDarkMode,
   onOpenNotifications,
   onOpenApkModal,
-  isOnline,
 }) => {
-  const [time, setTime] = useState('');
-
-  useEffect(() => {
-    const updateTime = () => {
-      const now = new Date();
-      setTime(now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }));
-    };
-    updateTime();
-    const interval = setInterval(updateTime, 1000);
-    return () => clearInterval(interval);
-  }, []);
-
   return (
     <header className="sticky top-0 z-40 bg-emerald-950/90 dark:bg-[#0c1813]/95 backdrop-blur-md border-b border-emerald-800/30 text-white select-none transition-colors">
-      {/* Android System Status Bar */}
-      <div className="flex items-center justify-between px-4 py-1 text-xs font-medium text-emerald-200/70 border-b border-emerald-900/30">
-        <span className="font-mono tracking-tight">{time || '12:00'}</span>
-        <div className="flex items-center gap-2">
-          {isOnline ? (
-            <span className="flex items-center gap-1 text-[10px] text-emerald-400">
-              <Wifi className="w-3 h-3" />
-              <span>Online</span>
-            </span>
-          ) : (
-            <span className="flex items-center gap-1 text-[10px] text-amber-400">
-              <WifiOff className="w-3 h-3" />
-              <span>Offline DB</span>
-            </span>
-          )}
-          <span className="text-[10px] bg-emerald-800/60 text-emerald-200 px-1.5 py-0.2 rounded font-semibold">5G</span>
-          <div className="w-4 h-2 border border-emerald-400/80 rounded-sm p-[1px] flex items-center">
-            <div className="w-full h-full bg-emerald-400 rounded-2xs"></div>
-          </div>
-        </div>
-      </div>
-
       {/* Main App Bar */}
       <div className="flex items-center justify-between px-4 py-3">
         <div className="flex items-center gap-2.5">
